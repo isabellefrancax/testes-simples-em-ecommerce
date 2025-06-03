@@ -1,4 +1,4 @@
-Cenario: Fazer login com sucesso.
+*Cenario: Fazer login com sucesso.*
 
 Step1: Inserir um username válido.
 
@@ -10,7 +10,7 @@ Resultado esperado: Sistema autentica o usuário e o redireciona para nova pági
 
 
 
-Cenario: Fazer login com senha inválida.
+*Cenario: Fazer login com senha inválida.*
 
 Step1: Inserir um username.
 
@@ -22,7 +22,7 @@ Resultado esperado: Receber mensagem de erro.
 
 
 
-Cenario: Adicionar produto ao carrinho.
+*Cenario: Adicionar produto ao carrinho.*
 
 Step1: Estar logado com um usuário válido.
 
@@ -34,7 +34,7 @@ Resultado esperado: Ser redirecionado para o carrinho contendo o item.
 
 
 
-Cenario: Remover produto do carrinho.
+*Cenario: Remover produto do carrinho.*
 
 Step1: Estar logado com um usuário válido.
 
@@ -48,7 +48,7 @@ Resultado esperado: Carrinho deve estar vazio.
 
 
 
-Cenario: Fazer logout com sucesso.
+*Cenario: Fazer logout com sucesso.*
 
 Step1: Estar logado com uma conta válida.
 
