@@ -1,38 +1,59 @@
 Cenario: Fazer login com sucesso.
+
 Step1: Inserir um username válido.
+
 Step2: Inserir uma senha válida.
+
 Step3: Clicar no botão de login.
+
 Resultado esperado: Sistema autentica o usuário e o redireciona para nova página.
 
 
 
 Cenario: Fazer login com senha inválida.
+
 Step1: Inserir um username.
+
 Step2: Inserir uma senha inválida.
+
 Step3: Clicar no botão de login.
+
 Resultado esperado: Receber mensagem de erro.
 
 
 
 Cenario: Adicionar produto ao carrinho.
+
 Step1: Estar logado com um usuário válido.
+
 Step2: Clicar em "Add to Card" em item "Sauce Labs Backpack"
+
 Step3: Clicar no ícone do carrinho.
+
 Resultado esperado: Ser redirecionado para o carrinho contendo o item.
 
 
 
 Cenario: Remover produto do carrinho.
+
 Step1: Estar logado com um usuário válido.
+
 Step2: Ter item "Sauce Labs Backpack" adicionado ao carrinho.
+
 Step3: Ir para o carrinho.
+
 Step4: Remover item do carrinho.
+
 Resultado esperado: Carrinho deve estar vazio.
 
 
 
 Cenario: Fazer logout com sucesso.
+
 Step1: Estar logado com uma conta válida.
+
 Step2: Clicar em item de menu lateral.
+
 Step3: Clicar em "logout".
+
 Resultado esperado: Ser redirecionado para página de login.
